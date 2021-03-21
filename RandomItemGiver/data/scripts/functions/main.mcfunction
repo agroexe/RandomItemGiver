@@ -2,7 +2,7 @@
 scoreboard objectives add item_timer dummy
 
 # Set custom time here (min. = 0; the lower the value, the faster the give timer):
-scoreboard players set timer_max item_timer 100
+scoreboard players set timer_max item_timer 50
 
 # Increment timer_current in item_timer by 1 every tick
 scoreboard players add timer_current item_timer 1
